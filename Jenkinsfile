@@ -5,10 +5,10 @@ pipeline {
     stages {
 
         stage('Clone Code') {
-            steps {
-                git 'https://github.com/YOUR_USERNAME/jenkins-demo-pipeline.git'
-            }
-        }
+    steps {
+        git 'https://github.com/bhawana59/jenkins-demo-pipeline.git'
+    }
+}
 
 
         stage('Install Dependencies') {
